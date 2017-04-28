@@ -1,0 +1,27 @@
+{
+  "name": "todolist-backbone",
+  "description": "This is a todo list which is used Backbone JS, Node JS, MongoDB, Mongoose, Mocha and Jsdoc.",
+   "author": "Fatih M. KILIÇ <fatih@fatihkilic.net>",
+  "license": "GPL-3.0",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server"
+  },
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "jsdoc": "3.4.3",
+    "mongoose": "4.7.6"
+  },
+  "devDependencies": {
+    "mocha": "3.2.0",
+    "should": "11.1.2",
+    "supertest": "2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fatihkilic/todolist-backbone.git"
+  }  
+}

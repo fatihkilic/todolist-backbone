@@ -1,0 +1,22 @@
+{
+	"source": {
+		"include": [
+			"client-side/js/collections/todos.js",
+			"client-side/js/models/todo.js",
+			"client-side/js/views/todoItemView.js",
+			"client-side/js/views/todoItemsView.js",
+			"client-side/js/main.js",
+			"server-side/controllers/todo.js",
+			"server-side/models/todo.js",
+		    "server.js"
+		],
+		"exclude": [ "backbone-prod/client-side/js/lib/*" ],
+		"includePattern": ".+\\.js(doc)?$",
+		"excludePattern": "(^|\\/|\\\\)_"
+	},
+	"opts": {
+		"encoding": "utf8",               
+		"destination": "./docs",
+		"recurse": "true"
+	}
+}

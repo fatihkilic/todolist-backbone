@@ -1,0 +1,25 @@
+This is a simple todo list. 
+I have used the Backbone JS, Node JS, MongoDB, Mongoose, Mocha and Jsdoc tool.
+
+Attention please!
+This application using port number 3000 -please ensure that the port is available- and assume that mongodb has been already running on port number 27017.
+Otherwise, the program will not run.
+
+If you have provided these requirements, you should run following commands:
+
+> npm install 
+> npm start
+
+You can access the application http://localhost:3000 
+
+On the other hand, if you want to run test cases, you should run "npm test" from another command line.
+
+You can use jsdoc for like this: "./node_modules/.bin/jsdoc -c conf.json" then you can find output the docs/ folder.
+
+The version of the tools are as follows:
+node version is 6.9.2
+npm is 3.10.9
+mongodb is 2.4.9
+
+Thanks,
+Fatih

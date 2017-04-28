@@ -1,0 +1,52 @@
+body {
+	padding: 40px;
+	background: #f9f9f9;
+}
+form {
+    display: inline-block;
+}
+.form-group {
+    text-align: center;
+    padding-bottom: 25px;
+}
+#todoItems {
+	list-style: none;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding-left: 0;
+	margin-top: 0;
+	background: #fff;
+}
+
+#todoItems > li{
+	padding: 10px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+#todoItems > li > label {
+	width: 80%;
+	display: inline-block;
+}
+
+#todoItems > li > .delete, .edit, .update{
+	width: 60px;
+	float: right;
+	font-size: 14px;
+	border: 0;
+	border-radius: 9px;
+	padding: 7px;
+	margin: 2px;
+}
+
+#todoItems > li > .update {
+	background: #357ebd;
+}
+
+#todoItems li.completed > label {
+	text-decoration: line-through;
+	font-style: italic;
+}
+a.close {
+  float: right;
+}
